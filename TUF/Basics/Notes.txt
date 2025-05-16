@@ -36,3 +36,12 @@ Java Basics
     - for loop
     - 2D array
 - Conditional Statements
+    - if else
+    - if else if
+    - nested if else
+    - switch
+- Loops
+    - for
+    - while
+    - do while 
+- Exception Handling (try-catch)

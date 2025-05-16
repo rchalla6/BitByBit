@@ -13,7 +13,6 @@ public class Basics {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
         System.out.println(num);
-        scanner.close();
 
         int x = 10;
         double y = x;
@@ -35,5 +34,68 @@ public class Basics {
         int[] zeroIndex = arr1[0];
         System.out.println(zeroIndex[1]);
         System.out.println(arr1[0][1]);
+
+        // Given an age, print "adult" if age >=18, or print "Teen"
+
+        int age = scanner.nextInt();
+        if (age >= 18) {
+            System.out.println("Adult");
+        } else {
+            System.out.println("Teen");
+        }
+
+        /*
+         * Given the marks of a student, tell us the grade he is getting
+         * following the below rules
+         * - Grade A (>=90)
+         * - Grade B (>=70 and <90)
+         * - Grade C (>=50 and <70)
+         * - Grade D (>=35 and <50)
+         * - Fail (<35)
+         */
+        int marks = scanner.nextInt();
+        if (marks >= 90) {
+            System.out.println("Grade A");
+        } else if (marks >= 70) {
+            System.out.println("Grade B");
+        } else if (marks >= 50) {
+            System.out.println("Grade C");
+        } else if (marks >= 35) {
+            System.out.println("Grade D");
+        } else {
+            System.out.println("Fail");
+        }
+
+        // Given the day number print which day it is of the week,
+        // assume week starts from Monday and ends on Sunday
+
+        int dayNumber = scanner.nextInt();
+        switch (dayNumber) {
+        case 1:
+            System.out.println("Mon");
+            break;
+        case 2:
+            System.out.println("Tue");
+            break;
+        case 3:
+            System.out.println("Wed");
+            break;
+        case 4:
+            System.out.println("Thu");
+            break;
+        case 5:
+            System.out.println("Fri");
+            break;
+        case 6:
+            System.out.println("Sat");
+            break;
+        case 7:
+            System.out.println("Sun");
+            break;
+        default:
+            System.out.println("Invalid day number");
+        }
+
+        scanner.close();
     }
 }
