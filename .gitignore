@@ -1,3 +1,4 @@
-TUF/Basics/input.txt
-TUF/Basics/output.txt
-TUF/Basics/Basics.class
+*output.txt
+*input.txt
+*.class
+*.DS_Store
