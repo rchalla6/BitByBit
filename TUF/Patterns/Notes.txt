@@ -1,0 +1,7 @@
+Patterns
+
+1. Figure out number of lines to be printed & write your outer loop
+2. Figure out what is happenining at every line & try to connect with outer loop if possible
+    write your inner loop on this basis
+3. Execute the print when needed
+4. observe symmetry (optional)
