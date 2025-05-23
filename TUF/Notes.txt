@@ -1,0 +1,13 @@
+Time Complexity:
+
+Big O - Worst Case
+    Avoid Constants
+    Always consider the worst case
+Theta - Average Case
+Omega - Best Case
+
+Space Complexity:
+
+Auxiliary Space (Space taken by code) + Input Space (Space taken by input)
+
+Recursive Stack Space
