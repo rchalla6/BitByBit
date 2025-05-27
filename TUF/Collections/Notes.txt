@@ -1,0 +1,19 @@
+- Custom classes
+- Collection
+    - List
+        - ArrayList
+        - LinkedList
+        - Stack
+        - Vector - Same as ArrayList but thread safe
+    - Set
+        - HashSet
+        - 
+    
+
+
+
+
+- Collection Interface is part of java.util package
+- List Interface is part of java.util.List package
+    Extends Collection Interface
+- HashSet does not guarantee results in sort order
