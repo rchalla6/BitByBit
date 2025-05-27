@@ -3,17 +3,33 @@
     - List
         - ArrayList
         - LinkedList
-        - Stack
+        - Stack (LIFO)
         - Vector - Same as ArrayList but thread safe
     - Set
-        - HashSet
-        - 
-    
-
-
-
+        - HashSet - O(1)
+        - TreeSet - (log N)
+    - Queue (FIFO)
+        - ArrayQueue
+        - LinkedList
+        - PriorityQueue (Min heap)
+- Map
+    - HashMap
+    - TreeMap - Always store keys in sorted order
+- Iterator
+    - ListIterator
+- Custom comparator
+- Common Algorithms
+    - Collections.sort(list)
+    - Collections.max(list)
+    - Collections.Min(list)
+    - Collections.reverse(list)
+    - Arrays.sort(array)
+    - Collections.frequency(list, element)
+    - Collections.binarySearch(list, key)
+    - Math.pow(base, exponent)
 
 - Collection Interface is part of java.util package
 - List Interface is part of java.util.List package
     Extends Collection Interface
 - HashSet does not guarantee results in sort order
+- HashMap does not guarantee keys in sort order
